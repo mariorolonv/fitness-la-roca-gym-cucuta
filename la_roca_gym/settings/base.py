@@ -126,7 +126,9 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+WAGTAIL_I18N_ENABLED = True
+
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -155,7 +157,7 @@ MEDIA_URL = '/media/'
 
 # Wagtail settings
 
-WAGTAIL_SITE_NAME = "la_roca_gym"
+WAGTAIL_SITE_NAME = "Fitness La Roca Gym - Cúcuta"
 
 # Search
 # https://docs.wagtail.io/en/stable/topics/search/backends.html
@@ -168,3 +170,5 @@ WAGTAILSEARCH_BACKENDS = {
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 BASE_URL = 'http://example.com'
+PUPUT_AS_PLUGIN = True
+CLIENT_NAME = 'La Roca Gym'
